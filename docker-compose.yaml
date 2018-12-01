@@ -7,7 +7,5 @@ services:
     ports:
       - '8088:8080'
     environment:
-      - CASC_JENKINS_CONFIG=/usr/share/jenkins/jenkins.yaml
+      - CASC_JENKINS_CONFIG=https://github.com/timwebster9/jenkins-cac/blob/master/jenkins.yaml
       - JAVA_OPTS="-Djenkins.install.runSetupWizard=false"
-    volumes:
-      - './jenkins.yaml:/usr/share/jenkins/jenkins.yaml'
