@@ -4,7 +4,7 @@ build:
 	docker build -t timwebster9/jenkins-cac .
 
 run:
-	docker-compose up
+	docker-compose down && docker-compose up
 
 stop:
 	docker-compose down
