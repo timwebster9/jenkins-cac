@@ -1,0 +1,3 @@
+jenkins:
+  systemMessage: >-
+    This jenkins is managed by configuration as code
